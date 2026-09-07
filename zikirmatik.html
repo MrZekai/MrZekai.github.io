@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dhikr Counter: Digital Tasbih</title>
+<style>
+  :root{
+    --bg:#062219; --bg2:#0b3a2b; --gold:#d6b05c; --gold-hi:#f3d589;
+    --cream:#eff3ec; --muted:#a3c1b0; --card:#123e2f; --line:#2f6650;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:linear-gradient(180deg,var(--bg),var(--bg2));
+    color:var(--cream);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    min-height:100vh}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 72px}
+  header{border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:34px}
+  h1{margin:0 0 6px;font-size:34px;letter-spacing:-.5px}
+  .sub{color:var(--gold);letter-spacing:3px;font-size:13px;font-weight:600;text-transform:uppercase}
+  .tag{color:var(--muted);margin-top:14px;font-size:18px}
+  .badges{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px}
+  .badge{border:1px solid var(--gold);color:var(--gold-hi);border-radius:999px;
+    padding:6px 15px;font-size:13px}
+  h2{font-size:20px;margin:34px 0 12px;color:var(--gold-hi)}
+  ul{padding-left:20px;margin:0}
+  li{margin:7px 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .card b{display:block;color:var(--cream);font-size:14px;margin-bottom:3px}
+  .card span{color:var(--muted);font-size:13px}
+  a{color:var(--gold-hi)}
+  .cta{display:inline-block;background:var(--gold);color:#0a2c20;font-weight:700;
+    text-decoration:none;padding:12px 24px;border-radius:999px;margin-top:8px}
+  footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);
+    color:var(--muted);font-size:14px}
+  .tr{margin-top:40px;padding-top:28px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Dhikr Counter</h1>
+    <div class="sub">Digital Tasbih</div>
+    <p class="tag">Count your dhikr, reach your goal, find spiritual peace.</p>
+    <div class="badges">
+      <span class="badge">Fully offline</span>
+      <span class="badge">Data stays on device</span>
+      <span class="badge">No account</span>
+      <span class="badge">27 languages</span>
+    </div>
+    <p><a class="cta" href="https://play.google.com/store/apps/details?id=com.zikirhane.tesbih">Get it on Google Play</a></p>
+  </header>
+
+  <h2>What it does</h2>
+  <div class="grid">
+    <div class="card"><b>Set a goal</b><span>33, 100, 300, 500, 1000 or your own</span></div>
+    <div class="card"><b>After-prayer dhikr</b><span>33 × 33 × 33 with auto-advance</span></div>
+    <div class="card"><b>99 Names of Allah</b><span>Names, transliteration, meaning</span></div>
+    <div class="card"><b>Custom dhikrs</b><span>Create and count your own</span></div>
+    <div class="card"><b>Statistics</b><span>Daily, weekly and monthly tracking</span></div>
+    <div class="card"><b>Reminders</b><span>Optional daily dhikr reminder</span></div>
+    <div class="card"><b>Large text</b><span>Easy-reading option</span></div>
+    <div class="card"><b>Themes</b><span>Dark and light</span></div>
+  </div>
+
+  <h2>Privacy in one line</h2>
+  <p>No account, no sign-up. Your counters, dhikrs and history stay on your
+     device. The app works without an internet connection; a connection is
+     used only to load ads.</p>
+  <p><a href="./zikirmatik-privacy.html">Privacy Policy (English)</a> ·
+     <a href="https://sites.google.com/view/hedefzikirmatik/ana-sayfa">Gizlilik Politikası (Türkçe)</a></p>
+
+  <div class="tr">
+    <h2>Türkçe</h2>
+    <p><b>Zikirmatik: Dijital Tesbih.</b> Zikirlerinizi sade ve dikkat
+       dağıtmayan bir ekranda saymanız için yapılmış dijital bir tesbih.
+       Hedef belirleme, namaz sonrası tesbihat, Esmaül Hüsna, kendi
+       zikirlerinizi ekleme, istatistikler ve günlük hatırlatıcı.</p>
+    <p>Hesap gerekmez. Sayaçlarınız, zikirleriniz ve geçmişiniz cihazınızda
+       kalır. Uygulama internetsiz çalışır; bağlantı yalnızca reklamların
+       yüklenmesi için kullanılır.</p>
+  </div>
+
+  <footer>
+    <p>Contact / İletişim: <a href="mailto:hedefzikirmatik@gmail.com">hedefzikirmatik@gmail.com</a></p>
+    <p>Package: com.zikirhane.tesbih</p>
+  </footer>
+
+</div>
+</body>
+</html>
